@@ -1,0 +1,21 @@
+Bei dem betreffenden Kunden wird ein KVA erstellt.
+Sollte die Rep. zu teuer sein, wird zugleich ein Angebot über ein vergleichbares Gerät erstellt.
+
+Dann wird die Schadensanzeige ausgefüllt und ausgedruckt.
+
+In der Schadensanzeige steht auch eine Fax Nummer, zu sendende Dokumente:
+
+Endkundenrechnung 
+Schadensmeldung
+KVA
+Angebot
+
+auf Bonn kommt dann eine Freigabe Mail mit dem Betrag der freigegeben wurde.
+Wichtig, der Kunde darf auch mehr ausgeben muss dann eben nur die Differenz zahlen.
+
+Danach wird eine Rechnung an die Fidessecur geschrieben (Siehe RE 14012907 S-Artikel) als Vorlage.
+Beim Kunden muss beim Neukauf stehen, wie hoch der Freibetrag ist, siehe hierzu KD Nina Graffe als Vorlage.
+
+Zum Schluss muss dann die Rechnung der Fidessecur inkl. Kopie der Rechnung des Kunden an die Fidessecur geschickt werden.
+
+Das wars....

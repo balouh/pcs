@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
+"Manufacturer"="PC Spezialist Bonn - Systempartner AE Computer GmbH"
+"Model"="Mo.bis Fr. von 09:30 - 19:30 Uhr Samstag von 09:30 - 17:00 Uhr"
+"SupportUrl"="www.pcspezialist-bonn.de"
+
+
+"Logo"="\\Windows\\System32\\oobe\\oemlogo.jpg"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Media Center\Start Menu]
+"OEMLogoUri"="file://c:\\windows\\system32\\oobe\\oemlogo.jpg"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winsat\WindowsExperienceIndexOemInfo]
+"Logo"="\\windows\\system32\\oobe\\oemlogo.jpg"
