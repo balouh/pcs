@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- Please enter the name of the language, in your own language. For instance, enter "Français" and not "French", or "Deutsch" and not "German"-->
+  <Name>Spanish</Name>
+  <!-- Enter one line <string>?</string> per locale handled by your language. Enter the default, as well as any other local culture handled. You can find a list of codes here : http://www.ocbase.com/ -->
+  <Cultures>
+    <string>es</string>
+    <string>es-AR</string>
+    <string>es-MX</string>
+    <string>es-ES</string>
+    <string>es-UY</string>
+  </Cultures>  
+  <!-- Here comes the translation work. You will find one <Translation> block per sentence to translate. -->
+  <!-- DO NOT CHANGE THE CONTENTS OF THE <key> TAG -->
+  <!-- The according translated key has to go into the <value> tag -->
+  <!-- To test your translation, copy it into the "locale" folder of OCCT, and restart it. It will appear, if the document syntax is alright, in the option's language dropdown menu-->
+  <Translations>
+  <!-- Donation Form (displayed when OCCT is first launched-->
+    <Translation>
+      <key>Please help us developing OCCT !</key>
+      <value>Por favor, ayúdenos a desarrollar OCCT!!</value>
+    </Translation>
+    <Translation>
+      <key>Right now, besides its huge success, OCCT doesn't generate any benefits. I know it sounds surprising, but google ads covers about half of the expenses on OCCT. The rest is on my personal funds. I don't want to include ads in OCCT. I could easily, but that will hinder its usage, and that's against all my principles : offer a free, useable tool that even beginners can easily use.</key>
+      <value>En este momento, además de su gran éxito, OCCT no genera ningún beneficio. Sé que suena extraño, pero los anuncios de google cubre aproximadamente la mitad de los gastos en OCCT. El resto está en mis fondos personales. No quiero incluir anuncios en OCCT. Yo podría, pero se que impiden su uso, y que va en contra de todos mis principios:. Ofrece una herramienta gratuita, fácil de utilizar que incluso los principiantes pueden utilizar fácilmente.</value>
+    </Translation>	
+    <Translation>
+      <key>Please help us by doing a donation. Even small donations are welcome. Your money will be invested solely in OCCT : covering hosting costs, buying testing hardware, mostly. I hope you enjoy OCCT and that it will prove useful for you.</key>
+      <value>Por favor ayúdeme con una donación. Incluso las pequeñas donaciones son bienvenidas!! Su dinero se invertirá únicamente en OCCT: cubrir los gastos de alojamiento, la compra de hardware de prueba, en su mayoría. Espero que disfrutes de OCCT y que sea de utilidad para ti.</value>
+    </Translation>
+	
+	<!-- Main Window -->
+	<!-- Section titles -->
+    <Translation>
+      <key>System Information</key>
+      <value>Información del Sistema</value>
+    </Translation>	
+	<Translation>
+      <key>Help</key>
+      <value>Ayuda</value>
+    </Translation>	
+    <Translation>
+      <key>Monitoring</key>
+      <value>Monitoreo</value>
+    </Translation>		
+	
+	<!-- options common to all tests -->
+    <Translation>
+      <key>Test Type :</key>
+      <value>Tipo de prueba:</value>
+    </Translation>	
+    <Translation>
+      <key>Infinite</key>
+      <value>Infinita</value>
+    </Translation>	
+    <Translation>
+      <key>Automatic</key>
+      <value>Automatica</value>
+    </Translation>	
+    <Translation>
+      <key>Duration :</key>
+      <value>Duración:</value>
+    </Translation>	
+    <Translation>
+      <key>h</key>
+      <value>Hs</value>
+    </Translation>	
+    <Translation>
+      <key>min</key>
+      <value>Min</value>
+    </Translation>	
+    <Translation>
+      <key>Idle Periods :</key>
+      <value>Períodos de Inactividad:</value>
+    </Translation>	
+    <Translation>
+      <key>min at the beginning</key>
+      <value>Minutos al principio</value>
+    </Translation>	
+    <Translation>
+      <key>min at the end</key>
+      <value>Minutos al final</value>
+    </Translation>	
+
+	<!-- options common to some tests -->
+	<Translation>
+      <key>Use all Logical Cores</key>
+      <value>Usar todos los núcleos</value>
+    </Translation>	
+		
+	<!-- CPU:OCCT options -->
+    <Translation>
+      <key>Test Mode :</key>
+      <value>Modo de Prueba:</value>
+    </Translation>	
+    <Translation>
+      <key>Small Data Set</key>
+      <value>Poca cantidad de Datos</value>
+    </Translation>	
+    <Translation>
+      <key>Medium Data Set</key>
+      <value>Mediana cantidad de Datos</value>
+    </Translation>	
+	<Translation>
+      <key>Large Data Set</key>
+      <value>Gran cantidad de Datos</value>
+    </Translation>
+	
+	<!-- CPU:LINPACK options -->
+    <Translation>
+      <key>Memory :</key>
+      <value>Memoria:</value>
+    </Translation>	
+    <Translation>
+      <key>Custom</key>
+      <value>Personalizar</value>
+    </Translation>	
+    <Translation>
+      <key>MB</key>
+      <value>MB</value>
+    </Translation>		
+    <Translation>
+      <key>64 Bits</key>
+      <value>64 Bits</value>
+    </Translation>	
+	
+	<!-- GPU:3D-->
+	<Translation>
+      <key>Resolution :</key>
+      <value>Resolución:</value>
+    </Translation>	
+	<Translation>
+      <key>Hz</key>
+      <value>Hz</value>
+    </Translation>
+	<Translation>
+      <key>Shader Complexity :</key>
+      <value>Complejidad de Shader:</value>
+    </Translation>		
+	<Translation>
+      <key>FullScreen</key>
+      <value>FullScreen</value>
+    </Translation>
+	<Translation>
+      <key>Error Check</key>
+      <value>Comprobar error</value>
+    </Translation>
+	
+	<!-- Power Supply -->
+    <Translation>
+      <key>64 Bits Linpack</key>
+      <value>64 Bits Linpack</value>
+    </Translation>
+	
+	<!-- System Information -->
+	<Translation>
+      <key>CPU Name</key>
+      <value>Nombre CPU</value>
+    </Translation>
+	<Translation>
+      <key>Core</key>
+      <value>Núcleo</value>
+    </Translation>	
+	<Translation>
+      <key>Code Name</key>
+      <value>Nombre Código</value>
+    </Translation>  	
+	<Translation>
+      <key>Current</key>
+      <value>Actual</value>
+    </Translation>
+	<Translation>
+      <key>Original</key>
+      <value>Original</value>
+    </Translation>
+	<Translation>
+      <key>Overclock</key>
+      <value>Overclock</value>
+    </Translation>	
+	<Translation>
+      <key>Motherboard</key>
+      <value>Placa Madre</value>
+    </Translation>
+	<Translation>
+      <key>Graphic Card</key>
+      <value>Tarjeta Gráfica</value>
+    </Translation>	
+	
+	<!-- Top buttons -->
+	<Translation>
+      <key>Close</key>
+      <value>Cerrar</value>
+    </Translation>	
+	<Translation>
+      <key>Minimize</key>
+      <value>Minimizar</value>
+    </Translation>	
+	<Translation>
+      <key>Minimize to tray</key>
+      <value>Minimizar a la bandeja</value>
+    </Translation>	
+	<Translation>
+      <key>Move the Window</key>
+      <value>Mueva la ventana</value>
+    </Translation>		
+	<Translation>
+      <key>Takes a screenshot and saves it to a .png file</key>
+      <value>Toma una captura de pantalla y lo guarda en un archivo. png</value>
+    </Translation>	
+	<Translation>
+      <key>Creates a zip file containing the latest graphs generated</key>
+      <value>Crea un archivo zip que contiene los últimos gráficos generados</value>
+    </Translation>	
+	
+	<!-- Monitoring Form -->
+	<Translation>
+      <key>CPU Usage</key>
+      <value>Uso del CPU</value>
+    </Translation>	
+	<Translation>
+      <key>Memory Used</key>
+      <value>Memoria Usada</value>
+    </Translation>	
+	<Translation>
+      <key>FPS</key>
+      <value>FPS</value>
+    </Translation>	
+	<Translation>
+      <key>Temperature</key>
+      <value>Temperatura</value>
+    </Translation>		
+	<Translation>
+      <key>Voltage</key>
+      <value>Voltaje</value>
+    </Translation>	
+	<Translation>
+      <key>Fan</key>
+      <value>Ventilador</value>
+    </Translation>		
+	<Translation>
+      <key>Maximize to fullscreen, or back to normal</key>
+      <value>Maximizar a pantalla completa, o volver a la normalidad.</value>
+    </Translation>	
+	<Translation>
+      <key>Changes the position of the monitoring window : linked to the left or right of main window, or floating</key>
+      <value>Cambia la posición de la ventana de control vinculado a la izquierda; o, a la derecha de la ventana principal, o flotante</value>
+    </Translation>	
+	<Translation>
+      <key>Changes the current monitoring style : as a table, as real-time graphs, or both</key>
+      <value>Cambia el estilo del control de corriente: en forma de tabla, como gráficos en tiempo real, o los dos juntos.</value>
+    </Translation>		
+
+	
+	
+	<!-- Common Help messages-->
+	<Translation>
+     <key>Infinite : runs until an error is found. Automatic : Run for a fixed time, with included Idle periods for monitoring</key>
+      <value>Infinito: es decir, hasta que se encuentre un error. Automático: Ejecutar durante un tiempo fijo, incluidos los períodos de inactividad para el seguimiento.</value>
+    </Translation>
+	<Translation>
+      <key>In this mode, OCCT will stop only when an error is found</key>
+      <value>En este modo, OCCT se detendrá sólo cuando se encuentra un error.</value>
+    </Translation>
+	<Translation>
+      <key>In this mode, OCCT will start the test for a fixed amount of time, including configured idle periods for monitoring, and stop when an error is found</key>
+      <value>En este modo, se iniciará por una cantidad de tiempo, incluyendo los períodos de inactividad del monitoreo, y se detiene cuando se encuentra un error.</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) The duration of the test</key>
+      <value>(Automático) Duración de la prueba</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) the number of hours the test will last</key>
+      <value>(Automático), el número de horas de la prueba</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) the number of minutes the test will last</key>
+      <value>(Automático), el número de minutos de la prueba</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) the length of the included idle periods. This is useful for seeing how the computer temperature and voltages behave during a test</key>
+      <value>(Automático) Duración de los períodos de inactividad. Esto es útil para ver cómo se comportan la temperatura del ordenador y las tensiones durante una prueba</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) The duration, in minutes, of the idle period at the beginning of the test</key>
+      <value>(Modo automático) La duración, en minutos, del período de inactividad en el inicio de la prueba</value>
+    </Translation>
+	<Translation>
+      <key>(Automatic mode) The duration, in minutes, of the idle period at the end of the test</key>
+      <value>(Modo automático) La duración, en minutos, del período de inactividad en el final de la prueba</value>
+    </Translation>
+	
+	<!-- CPU:OCCT Help -->
+	<Translation>
+      <key>CPU:OCCT Test mode. It determines the size of the data set used during the test. Small is better for generating heat, Large is better at detecting errors</key>
+      <value>Modo de prueba. Determina el tamaño de datos durante la prueba. Un dato pequeño es mejor para la generación de calor, uno grande en la detección de errores...</value>
+    </Translation>
+	<Translation>
+      <key>When checked, OCCT will load every available core, physical or logical (Hyperthreading, also called virtual) cores. Enabled by default for best results</key>
+      <value>OCCT carga todos los núcleos disponibles, (Hyperthreading) físicos o núcleos lógicos. Activado por defecto para obtener los mejores resultados...</value>
+    </Translation>	
+	
+	<!-- CPU:LINPACK Help -->
+	<Translation>
+      <key>The amount of memory used by this test. Try to use as much memory as possible</key>
+      <value>La cantidad de memoria utilizada por esta prueba. Trate de usar la memoria tanto como sea posible.</value>
+    </Translation>
+	<Translation>
+      <key>Use the specified % of memory, or, if custom is selected, the one entered manually</key>
+      <value>Utilice el % de memoria especificado; o, si prefiere, la introdusca manualmente</value>
+    </Translation>		
+	<Translation>
+      <key>Indicates the amount of memory used by the test. If Custom is selected, you can type it down here</key>
+      <value>Indica la cantidad de memoria utilizada por la prueba. Si se selecciona, se puede escribir aquí.</value>
+    </Translation>
+	<Translation>
+      <key>When checked, the test will run in 64bits mode. Requires a 64bits CPU and OS</key>
+      <value>Cuando se activa, la prueba se ejecutará en modo 64bits. Requiere un sistema operativo y un procesador de 64bits</value>
+    </Translation>		
+	
+	<!-- GPU:3D Help -->
+	<Translation>
+      <key>The resolution used for the test</key>
+      <value>Resolución utilizada para la prueba</value>
+    </Translation>
+	<Translation>
+      <key>The width used for this test's resolution</key>
+      <value>El ancho utilizado para la resolución de esta prueba </value>
+    </Translation>		
+	<Translation>
+      <key>The height used for this test's resolution</key>
+      <value>La altura utilizada para la resolución de esta prueba </value>
+    </Translation>
+	<Translation>
+      <key>The refresh rate to use for the test</key>
+      <value>La frecuencia de actualización que se utilizará para la prueba</value>
+    </Translation>	
+	<Translation>
+      <key>The complexity of the shaders used. Small shaders (3) works best on Nvidia, Large shaders (7) on ATI</key>
+      <value>Complejidad de los shaders usados. Un Shader pequeño (3) funciona mejor en Nvidia, shaders grandes (7) en ATI</value>
+    </Translation>		
+	<Translation>
+      <key>Should the test run in FullScreen mode ? Check this for SLI support</key>
+      <value>En caso de que la prueba de funcionamiento en modo de pantalla completa? Compruebe esto para SLI </value>
+    </Translation>
+	<Translation>
+      <key>Should we try to detect errors ? If enabled, the heat generation will be lower, but error detection is still effective</key>
+      <value>Deberíamos tratar de detectar los errores? Si está activado, la generación de calor serán más bajos, pero la detección de errores seguirá siendo eficaz</value>
+    </Translation>
+	
+	<!-- Power Supply Help -->
+	<!-- Combination of the previous two -->
+	
+	
+	
+	
+	<!-- Option Form -->
+	<Translation>
+      <key>Language :</key>
+      <value>Idioma:</value>
+    </Translation>
+	<Translation>
+      <key>Monitoring Software :</key>
+      <value>Software de Monitoreo:</value>
+    </Translation>
+	
+	<!-- Option Form : monitoring configuration table -->
+	<Translation>
+      <key>Internal Sensor Name</key>
+      <value>Nombre del Sensor Interno</value>
+    </Translation>	
+	<Translation>
+      <key>Value</key>
+      <value>Valor</value>
+    </Translation>		
+	<Translation>
+      <key>Your Custom Name</key>
+      <value>Nombre personalizado</value>
+    </Translation>		
+	<Translation>
+      <key>Stop testing if value is above :</key>
+      <value>Detener la prueba si el valor está por encima de:</value>
+    </Translation>		
+	<Translation>
+      <key>Stop testing if value is below :</key>
+      <value>Detener la prueba si el valor es el siguiente:</value>
+    </Translation>		
+	<Translation>
+      <key>Show in Real-time?</key>
+      <value>Ver en tiempo real?</value>
+    </Translation>		
+
+	<!-- Real-Time Graphs and table -->
+	<Translation>
+      <key>CPU Usage</key>
+      <value>Uso del CPU</value>
+    </Translation>		
+	<Translation>
+      <key>Memory Used</key>
+      <value>Memoria Usada</value>
+    </Translation>		
+	<Translation>
+      <key>FPS</key>
+      <value>FPS</value>
+    </Translation>		
+	<Translation>
+      <key>Temperature</key>
+      <value>Temperatura</value>
+    </Translation>		
+	<Translation>
+      <key>Voltage</key>
+      <value>Voltaje</value>
+    </Translation>		
+	<Translation>
+      <key>Fan</key>
+      <value>Ventilador</value>
+    </Translation>		
+	<Translation>
+      <key>Sensor Name</key>
+      <value>Nombre del sensor</value>
+    </Translation>		
+	<Translation>
+      <key>Value</key>
+      <value>Valor</value>
+    </Translation>		
+	<Translation>
+      <key>Min</key>
+      <value>Min</value>
+    </Translation>		
+	<Translation>
+      <key>Max</key>
+      <value>Max</value>
+    </Translation>		
+
+	<!-- Test status messages -->
+	<Translation>
+      <key>Idle</key>
+      <value>Inactivo</value>
+    </Translation>		
+	<Translation>
+      <key>Started</key>
+      <value>Iniciado</value>
+    </Translation>		
+	<Translation>
+      <key>Starting</key>
+      <value>Comenzando</value>
+    </Translation>		
+	<Translation>
+      <key>Testing</key>
+      <value>Haciendo pruebas</value>
+    </Translation>		
+	<Translation>
+      <key>Stopped</key>
+      <value>Detenido</value>
+    </Translation>		
+	<Translation>
+      <key>Finished</key>
+      <value>Terminado</value>
+    </Translation>		
+	<Translation>
+      <key>Test Waiting - Monitoring</key>
+      <value>Prueba detenida - Monitoreo</value>
+    </Translation>		
+	<Translation>
+      <key>Test Done - Monitoring</key>
+      <value>Prueba Terminada - Monitoreo</value>
+    </Translation>		
+	<Translation>
+      <key>User Cancelled</key>
+      <value>Cancelado por el Usuario</value>
+    </Translation>		
+	<Translation>
+      <key>Error Detected</key>
+      <value>Error detectado!!</value>
+    </Translation>		
+	<Translation>
+      <key>over maximum value !</key>
+      <value>Superado el valor máximo!!</value>
+    </Translation>		
+	<Translation>
+      <key>below minimum value !</key>
+      <value>Debajo del valor mínimo</value>
+    </Translation>		
+	<Translation>
+      <key>Value Reached :</key>
+      <value>Valor alcanzado:</value>
+    </Translation>	
+	<Translation>
+      <key>Max Value :</key>
+      <value>Valor máximo:</value>
+    </Translation>	
+	<Translation>
+      <key>Min Value :</key>
+      <value>Valor Minimo:</value>
+    </Translation>	
+	<Translation>
+      <key>Could not start</key>
+      <value>No se pudo iniciar</value>
+    </Translation>	
+	<Translation>
+      <key>Test binary is missing</key>
+      <value>Fallo en la Prueba Binaria</value>
+    </Translation>	
+	<Translation>
+      <key>Not enough memory</key>
+      <value>No hay suficiente Memoria</value>
+    </Translation>	
+	
+	<!-- New 4.1.0 strings -->
+	<Translation>
+      <key>DirectX Version :</key>
+      <value>Versión DirectX:</value>
+    </Translation>	
+    <Translation>
+      <key>DirectX9</key>
+      <value>DirectX9</value>
+    </Translation>	
+	<Translation>
+      <key>Uses DirectX9 for the test (older version)</key>
+      <value>Usa DirectX9 para la prueba (versiónes anteriores)</value>
+    </Translation>		
+	<Translation>
+      <key>DirectX11</key>
+      <value>DirectX11</value>
+    </Translation>	
+	<Translation>
+      <key>Uses DirectX11 for the test (recommended)</key>
+      <value>Usa DirectX11 para la prueba (recomendado)</value>
+    </Translation>		
+	<Translation>
+      <key>Error Detected on Core #</key>
+      <value>Error detectado en el núcleo #</value>
+    </Translation>		
+	<Translation>
+      <key>Errors detected</key>
+      <value>Errores detectados</value>
+    </Translation>
+	<!-- In system info, string found in "CPU Infos : Nehalem, 4 Cores" for instance -->
+	<Translation>
+      <key>Cores</key>
+      <value>Núcleos</value>
+    </Translation>
+	<Translation>
+      <key>Error Creating D3D Device</key>
+      <value>Error Creando D3D de dispositivos</value>
+    </Translation>	
+	<Translation>
+      <key>Try another resolution or graphic driver</key>
+      <value>Pruebe con otra resolución o controlador gráfico</value>
+    </Translation>	
+	<Translation>
+      <key>AVX Capable Linpack</key>
+      <value>AVX Capable Linpack</value>
+    </Translation>	
+	<Translation>
+      <key>When checked, OCCT will use an AVX-compliant version of Linpack. Better on CPUs that supports AVX, but not as good otherwise.</key>
+      <value>Cuando se activa, OCCT se utiliza una versión AVX-compatible de Linpack. Mejor en las CPU que apoya AVX, pero no tan bueno de otra manera.</value>
+    </Translation>		
+	
+	<!-- New OCCT 4.3.0 strings -->
+	<!-- CPU:OCCT -->
+	<Translation>
+      <key>32 bits</key>
+      <value>32 bits</value>
+    </Translation>
+	<Translation>
+      <key>The 32 bits test, with all recent instruction set support (up to AVX)</key>
+      <value>Prueba de 32bits, con todas la recientes instrucciones para el soporte (hasta AVX)</value>
+    </Translation>
+	<Translation>
+      <key>The 64 bits test, with all recent instruction set support (up to AVX)</key>
+      <value>Prueba de 64bits, con todas la recientes instrucciones para el soporte (hasta AVX)</value>
+    </Translation>
+	<Translation>
+      <key>Test Version :</key>
+      <value>Versión de prueba:</value>
+    </Translation>
+	<Translation>
+      <key>The version to run, 32 bits or 64 bits.</key>
+      <value>La versión se ejecuta en 32 o 64 bits.</value>
+    </Translation>
+	
+	<!-- GPU:3D -->
+	<Translation>
+      <key>FPS Limit :</key>
+      <value>Limite FPS:</value>
+    </Translation>
+	<Translation>
+      <key>fps</key>
+      <value>fps</value>
+    </Translation>	
+	<Translation>
+      <key>The FPS limit (software) to use. 0 is disabled</key>
+      <value>Límite de FPS (software). Use 0 para desactivar</value>
+    </Translation>
+	<Translation>
+      <key>The test cannot start because your DirectX Version isn't up to date. Do you want OCCT to update your DirectX to the newest version ?</key>
+      <value>La prueba no se puede iniciar debido a que su versión de DirectX no está actualizada. ¿Quieres que OCCT actualize el DirectX a la nueva versión?</value>
+    </Translation>	
+	<Translation>
+      <key>Just follow microsoft's wizard until the end, and OCCT will try to start the test automatically</key>
+      <value>Sólo tienes que seguir el asistente de instalación de Microsoft hasta el final, y OCCT tratará de iniciar la prueba de forma automática</value>
+    </Translation>		
+	
+	<!-- MONITORING WINDOW -->
+	<Translation>
+      <key>CPU/MEM Usage (%)</key>
+      <value>Uso de CPU/MEM (%)</value>
+    </Translation>
+	<Translation>
+      <key>Frequencies (MHz)</key>
+      <value>Frequencia (MHz)</value>
+    </Translation>	
+	
+	<!-- System Information -->	
+	<Translation>
+      <key>CPU</key>
+      <value>CPU</value>
+    </Translation>	
+	<Translation>
+      <key>Bus</key>
+      <value>BUS (Canal)</value>
+    </Translation>		
+	
+
+	<!-- New 4.3.2 Strings -->
+	<Translation>
+      <key>Graphic Card :</key>
+      <value>Placa de vídeo:</value>
+    </Translation>	
+	<Translation>
+      <key>The graphic card the test will run on</key>
+      <value>La prueba se ejecutará en esta placa de vídeo</value>
+    </Translation>		
+	<Translation>
+      <key>Memory used :</key>
+      <value>Memoria usada:</value>
+    </Translation>	
+	<Translation>
+      <key>When checked, OCCT will use the amount of memory specified for the test. This mode puts less stress on the GPU. Limited to 2GB for now !</key>
+      <value>Cuando se activa, OCCT utilizará la cantidad de memoria especificada para la prueba. Este modo pone menos tensión en la GPU. Limitado a 2 GB por ahora!</value>
+    </Translation>	
+	<Translation>
+      <key>The amount of memory (in MB) to use for the test. Limited to 2GB for now !</key>
+      <value>Cantidad de memoria (en MB) a utilizar para la prueba. Limitado a 2 GB, por ahora!</value>
+    </Translation>	
+	<Translation>
+      <key>OCCT isn't free for commercial use !</key>
+      <value>OCCT no es gratuito para uso comercial!</value>
+    </Translation>	
+	<Translation>
+      <key>OCCT isn't free for commercial use. You have to buy a Pro license to use it in such an environment. I made them cheap enough so that any company should easily be able to afford it.</key>
+      <value>OCCT no es gratis para uso comercial. Usted tiene que comprar una licencia Pro para usarla en dicho entorno. Es lo suficientemente barato, como para que cualquier empresa pueda ser fácilmente capaz de pagarlo.</value>
+    </Translation>	
+	<Translation>
+      <key>Companies have been largely ignoring me, using the free version of OCCT, and some even asking for support by email. Please consider buying a OCCT pro License, as it will come with useful features for your company, and you will help developing this tool, that will be in turn able to keep its free version ... free.</key>
+      <value>Hay empresas que han ignorado este principio, utilizando la versión gratuita de OCCT, e incluso en algunos casos pidiendo apoyo por correo electrónico. Por favor, considere comprar una licencia Pro de OCCT, estas vienen con características útiles para su empresa, y podrán ayudar a desarrollar esta herramienta, para poder seguir manteniendo su versión gratuita... libre.
+</value>
+    </Translation>	
+	<Translation>
+      <key>To review our prices and buy a pro license, visit our website by clicking here !</key>
+      <value>Para revisar nuestras tarifas y comprar una licencia profesional, visite nuestro sitio web haciendo clic aquí!</value>
+    </Translation>	
+	<Translation>
+      <key>OCCT will now close</key>
+      <value>OCCT ahora se cerrará</value>
+    </Translation>	
+	<Translation>
+      <key>OCCT's usage has been restricted. It won't start on a computer which is a member of a Windows domain.</key>
+      <value>El uso de OCCT ha sido restringido. No se podrá iniciar en un equipo que es miembro de un dominio de Windows.</value>
+    </Translation>	
+	<Translation>
+      <key>I really regret having to do so. OCCT isn't free for commercial use, and yet, large companies have been ignoring this, downloading and using OCCT without any consideration for the people behind the tool. You would be amazed (and probably as disgusted as I am) upon reading the names of those companies.</key>
+      <value>Yo realmente lamento tener que hacerlo. OCCT no es libre para uso comercial, y, sin embargo, las grandes empresas han hecho caso omiso de esto, descargar y utilizar OCCT sin ninguna consideración, por quien está detrás de la herramienta. Usted se sorprendería (y probablemente tan indignado como yo) con la lectura de los nombres de dichas empresas.</value>
+    </Translation>	
+	<Translation>
+      <key>It is the only way i found to prevent some commercial use from happening without considering buying a Pro license. It isn't perfect, and it will probably trouble a few end-users, that are legitimatly using it on their own computer part of a windows domain. I truly regret it, and apologize to them.</key>
+      <value>Es la única manera que encontré para evitar un uso comercial sin considerar la compra de una licencia Pro. No es perfecto, y es probable que existan algunos problemas para los usuarios finales, que sé que legitimamente la utilizan en su propio ordenador. Realmente lo lamento y pido disculpas a ellos ..
+</value>
+    </Translation>	
+	<Translation>
+      <key>All hope is not lost if you are a end-user, and not using it in a commercial environment. I've implemented a way to unlock OCCT.</key>
+      <value>Toda esperanza no se pierde si usted es un usuario final, y no se utiliza en un entorno comercial. He implementado una forma de desbloquear OCCT.</value>
+    </Translation>	
+	<Translation>
+      <key>For that, please contact me by clicking here !</key>
+      <value>Por eso, por favor póngase en contacto conmigo haciendo clic aquí!</value>
+    </Translation>	
+	
+	<!-- New 4.4.0 Strings -->
+	<Translation>
+      <key>Number of threads :</key>
+      <value>Número de hilos:</value>
+    </Translation>	
+	<Translation>
+      <key>The number of threads used by the test</key>
+      <value>El número de hilos utilizado por la prueba</value>
+    </Translation>	
+	<Translation>
+      <key>When checked, OCCT will use one thread per CPU Core. With HT, it will use 2 threads per core.</key>
+      <value>Cuando se activa, OCCT usará un hilo por núcleo de CPU. Con HT, utilizará dos hilos por núcleo.</value>
+    </Translation>	
+	<!-- Bottom label of CPU:OCCT, split in two, as it displays the amount of memory used by the test -->
+	<Translation>
+      <key>This test will use</key>
+      <value>Esta prueba utiliza</value>
+    </Translation>	
+	<Translation>
+      <key>MB of memory</key>
+      <value>MB de memoria</value>
+    </Translation>
+	<Translation>
+      <key>Current Value</key>
+      <value>Valor actual</value>
+    </Translation>	
+	
+	<!-- OCCT Graphs are not translated to be shareable on the web. Sorry, english only ! -->
+  </Translations>
+</Language>
