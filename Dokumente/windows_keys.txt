@@ -1,0 +1,25 @@
+http://technet.microsoft.com/en-us/library/jj612867.aspx - for Setup keys
+
+WINDOWS 7 PRODUCT KEYS
+======================
+FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4	Windows 7 Professional
+
+WINDOWS 8 PRODUCT KEYS
+======================
+Build 6.2.9200
+XKY4K-2NRWR-8F6P2-448RF-CRYQH    Windows 8 Professional
+FB4WR-32NVD-4RW79-XQFWH-CYQG3    Windows 8 Core
+
+WINDOWS 8.1 PRODUCT KEYS
+========================
+334NH-RXG76-64THK-C7CKG-D3VPT   Windows 8.1 Core
+XHQ8N-C3MCJ-RQXB6-WCHYG-C9WKB   Windows 8.1 Professional
+
+
+Downloadlinks
+=============
+http://www.heidoc.net/joomla/technology-science/microsoft/64-microsoft-windows-und-office-direkte-download-links?showall=&start=3
+http://www.lolametro.de/de/windows-iso-download-links/
+
+Win8 http://go.microsoft.com/fwlink/p/?LinkID=317630
+Win8.1 http://go.microsoft.com/fwlink/p/?LinkId=271128

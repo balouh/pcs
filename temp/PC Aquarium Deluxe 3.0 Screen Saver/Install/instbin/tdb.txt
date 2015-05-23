@@ -1,0 +1,611 @@
+start
+
+#Language = english
+Language = System
+
+#Exe start after Registration:
+ExeStart = 
+
+#Produktinformation:
+Produkt-ID = 8609
+
+#Registration-Source: 1:Webseite 2:Software 3:Support 4:Registrierkarte
+Registration-Source = 2
+
+#Distribution-Chanel: 1:bhv Publishing 2: bhv Digital Distribution 3:Re-Publishing 4:OEM
+Distribution-Chanel = 1
+
+#Territory: 1:GAS 2:Int.-English 3:Int.- Multilingual 4:France 5:US
+Territory = 2
+
+#Program Language: xx = unknown
+Program Language = xx
+
+#SplashScreen bevor Registration   (true/false)
+RegistrationSplash = true
+
+#SplashScreen allways   (true/false)
+AllwaysSplash = false
+
+#First Day of UpdateQuestion after Registration: 0 = first day
+UpdateQuestionStartTime = 0
+
+#Update Download 
+HTTP = http://www.x-oom-update.com
+
+#Update Download Name 
+DownloadName = pcaquarium
+
+#Update Download Version
+DownloadVersion = 1.0.0
+
+#Newsletter Version  X-OOM  or  BHV
+NewsletterVersion = BHV
+
+#No Online Update
+HideOnlineUpdate = true
+
+#Starter Screen
+StartScreen = true
+
+#Starter Buttons: 
+StartExe1 = ..\software\setup.exe
+StartExe2 = ..\software\bonuspack.exe
+WaitWindow1 = PC Aquarium Deluxe 3.0 Setup Program
+WaitWindow1Class = InstallShield_Win
+HelpFile = manual.htm
+
+#Exit Starter Screen after Starter Buttons:
+StartExit = true
+
+QuickTipColour = 12648447
+QuickTipFont = Arial
+QuickTipFontSize = 10
+QuickTipTime = 700
+QuickTipXOffset = 4
+QuickTipYOffset = 4
+
+#info Splash Screen
+With SplashWindow.
+Width = 300
+Height = 300
+Color = grey
+Font = Arial
+FontSize = 10
+Special = NoTitleBar
+
+Picture1.FileName = Splash
+Picture1.X = 0
+Picture1.Y = 0
+
+#Info Registration-Scene:
+With RegistrationWindow.
+Width = 462
+Height = 552
+Color = grey
+Font = Arial
+FontSize = 10
+Title = T_MainWindow_WindowTitle
+
+Frame1.X = 8
+Frame1.Y = 21
+Frame1.Width = 446
+Frame1.Height = 524
+
+Text1.X = 33
+Text1.Y = 51
+Text1.Width = 414
+Text1.Height = 60
+Text1.Text = T_RegInfo
+Text1.Function = F_RegInfo
+
+TextRight4.X = 64
+TextRight4.Y = 130
+TextRight4.Width = 88
+TextRight4.Height = 16
+TextRight4.Text = T_RegFirstNameLabel
+TextRight4.Function = F_RegFirstNameLabel
+
+InputBox1.X = 171
+InputBox1.Y = 127
+InputBox1.Width = 180
+InputBox1.Height = 24
+InputBox1.Function = F_RegFirstName
+InputBox1.Color = 16777215
+
+TextRight5.X = 74
+TextRight5.Y = 161
+TextRight5.Width = 78
+TextRight5.Height = 16
+TextRight5.Text = T_RegLastNameLabel
+TextRight5.Function = F_RegLastNameLabel
+
+InputBox2.X = 171
+InputBox2.Y = 157
+InputBox2.Width = 180
+InputBox2.Height = 24
+InputBox2.Function = F_RegLastName
+InputBox2.Color = 16777215
+
+TextRight6.X = 73
+TextRight6.Y = 221
+TextRight6.Width = 78
+TextRight6.Height = 18
+TextRight6.Text = T_Reg_eMailLabel
+TextRight6.Function = F_Reg_eMailLabel
+
+InputBox3.X = 171
+InputBox3.Y = 217
+InputBox3.Width = 180
+InputBox3.Height = 25
+InputBox3.Function = F_Reg_eMail
+InputBox3.Color = 16777215
+
+TextRight7.X = 73
+TextRight7.Y = 251
+TextRight7.Width = 78
+TextRight7.Height = 16
+TextRight7.Text = T_Reg_BirthdayLabel
+TextRight7.Function = F_Reg_BirthdayLabel
+
+InputBox4.X = 171
+InputBox4.Y = 247
+InputBox4.Width = 180
+InputBox4.Height = 24
+InputBox4.Function = F_Reg_Birthday
+InputBox4.Color = 16777215
+
+TextRight8.X = 74
+TextRight8.Y = 281
+TextRight8.Width = 78
+TextRight8.Height = 16
+TextRight8.Text = T_Reg_GenderLabel
+TextRight8.Function = F_Reg_GenderLabel
+
+TextRight9.X = 93
+TextRight9.Y = 191
+TextRight9.Width = 58
+TextRight9.Height = 16
+TextRight9.Text = T_Reg_CountryLabel
+TextRight9.Function = F_Reg_CountryLabel
+
+Combo1.X = 171
+Combo1.Y = 187
+Combo1.Width = 180
+Combo1.Height = 24
+Combo1.Val0 = T_Country0
+Combo1.Val1 = T_Country1
+Combo1.Val2 = T_Country2
+Combo1.Val3 = T_Country3
+Combo1.Val4 = T_Country4
+Combo1.Val5 = T_Country5
+Combo1.Val6 = T_Country6
+Combo1.Val7 = T_Country7
+Combo1.Val8 = T_Country8
+Combo1.Val9 = T_Country9
+Combo1.Val10 = T_Country10
+Combo1.Val11 = T_Country11
+Combo1.Val12 = T_Country12
+Combo1.Val13 = T_Country13
+Combo1.Val14 = T_Country14
+Combo1.Val15 = T_Country15
+Combo1.Val16 = T_Country16
+Combo1.Val17 = T_Country17
+Combo1.Val18 = T_Country18
+Combo1.Val19 = T_Country19
+Combo1.Val20 = T_Country20
+Combo1.Val21 = T_Country21
+Combo1.Val22 = T_Country22
+Combo1.Val23 = T_Country23
+Combo1.Val24 = T_Country24
+Combo1.Val25 = T_Country25
+Combo1.Val26 = T_Country26
+Combo1.Val27 = T_Country27
+Combo1.Val28 = T_Country28
+Combo1.Val29 = T_Country29
+Combo1.Val30 = T_Country30
+Combo1.Val31 = T_Country31
+Combo1.Val32 = T_Country32
+Combo1.Val33 = T_Country33
+Combo1.Val34 = T_Country34
+Combo1.Val35 = T_Country35
+Combo1.Val36 = T_Country36
+Combo1.Val37 = T_Country37
+Combo1.Val38 = T_Country38
+Combo1.Val39 = T_Country39
+Combo1.Val40 = T_Country40
+Combo1.Val41 = T_Country41
+Combo1.Val42 = T_Country42
+Combo1.Val43 = T_Country43
+Combo1.Val44 = T_Country44
+Combo1.Val45 = T_Country45
+Combo1.Val46 = T_Country46
+Combo1.Val47 = T_Country47
+Combo1.Val48 = T_Country48
+Combo1.Val49 = T_Country49
+Combo1.Val50 = T_Country50
+Combo1.Val51 = T_Country51
+Combo1.Val52 = T_Country52
+Combo1.Val53 = T_Country53
+Combo1.Val54 = T_Country54
+Combo1.Val55 = T_Country55
+Combo1.Val56 = T_Country56
+Combo1.Val57 = T_Country57
+Combo1.Val58 = T_Country58
+Combo1.Val59 = T_Country59
+Combo1.Val60 = T_Country60
+Combo1.Val61 = T_Country61
+Combo1.Val62 = T_Country62
+Combo1.Val63 = T_Country63
+Combo1.Val64 = T_Country64
+Combo1.Val65 = T_Country65
+Combo1.Val66 = T_Country66
+Combo1.Val67 = T_Country67
+Combo1.Val68 = T_Country68
+Combo1.Val69 = T_Country69
+Combo1.Val70 = T_Country70
+Combo1.Val71 = T_Country71
+Combo1.Val72 = T_Country72
+Combo1.Val73 = T_Country73
+Combo1.Val74 = T_Country74
+Combo1.Val75 = T_Country75
+Combo1.Val76 = T_Country76
+Combo1.Val77 = T_Country77
+Combo1.Val78 = T_Country78
+Combo1.Val79 = T_Country79
+Combo1.Val80 = T_Country80
+Combo1.Val81 = T_Country81
+Combo1.Function = F_RegCountry
+Combo1.Color = 16777215
+
+TextRight10.X = 53
+TextRight10.Y = 312
+TextRight10.Width = 98
+TextRight10.Height = 16
+TextRight10.Text = T_Reg_ProfessionLabel
+TextRight10.Function = F_Reg_ProfessionLabel
+
+Combo3.X = 171
+Combo3.Y = 307
+Combo3.Width = 180
+Combo3.Height = 24
+Combo3.Val1 = T_Prof1
+Combo3.Val2 = T_Prof2
+Combo3.Val3 = T_Prof3
+Combo3.Val4 = T_Prof4
+Combo3.Val5 = T_Prof5
+Combo3.Val6 = T_Prof6
+Combo3.Val7 = T_Prof7
+Combo3.Val8 = T_Prof8
+Combo3.Function = F_RegProfession
+Combo3.Color = 16777215
+
+
+TextRight11.X = 33
+TextRight11.Y = 342
+TextRight11.Width = 118
+TextRight11.Height = 16
+TextRight11.Text = T_Reg_BusinessUseLabel
+TextRight11.Function = F_Reg_BusinessUseLabel
+
+Text13.X = 172
+Text13.Y = 433
+Text13.Width = 240
+Text13.Height = 40
+Text13.Text = T_Reg_XOOMnewsLabel
+Text13.Function = F_Reg_XOOMnewsLabel
+
+CheckBox2.X = 133
+CheckBox2.Y = 435
+CheckBox2.Width = 240
+CheckBox2.Height = 16
+CheckBox2.Function = F_Reg_XOOMNews
+
+TextRight24.X = 40
+TextRight24.Y = 370
+TextRight24.Width = 110
+TextRight24.Height = 60
+TextRight24.Text = T_RegProductInformationLabel
+TextRight24.Function = F_RegProductInformationLabel
+
+Combo2.X = 171
+Combo2.Y = 383
+Combo2.Width = 180
+Combo2.Height = 244
+Combo2.Val1 = T_Info1
+Combo2.Val2 = T_Info2
+Combo2.Val3 = T_Info3
+Combo2.Val4 = T_Info4
+Combo2.Val5 = T_Info5
+Combo2.Val6 = T_Info6
+Combo2.Val7 = T_Info7
+Combo2.Val8 = T_Info8
+Combo2.Function = F_RegProductInformation
+Combo2.Color = 16777215
+
+OptionBFrame.X = 168
+OptionBFrame.Y = 277
+OptionBFrame.Width = 180
+OptionBFrame.Height = 30
+OptionB1.X = 3
+OptionB1.Y = 4
+OptionB1.Width = 38
+OptionB1.Height = 20
+OptionB1.Text = T_Gender_M
+OptionB1.function = F_Gender_M
+OptionB2.X = 61
+OptionB2.Y = 4
+OptionB2.Width = 36
+OptionB2.Height = 20
+OptionB2.Text = T_Gender_W
+OptionB2.function = F_Gender_W
+
+OptionAFrame.X = 150
+OptionAFrame.Y = 342
+OptionAFrame.Width = 180
+OptionAFrame.Height = 30
+OptionA1.X = 22
+OptionA1.Y = 0
+OptionA1.Width = 45
+OptionA1.Height = 20
+OptionA1.Text = T_BusinessUse_Y
+OptionA1.function = F_BusinessUse_Y
+OptionA2.X = 84
+OptionA2.Y = 2
+OptionA2.Width = 175
+OptionA2.Height = 16
+OptionA2.Text = T_BusinessUse_N
+OptionA2.function = F_BusinessUse_N
+
+Button1.X = 306
+Button1.Y = 502
+Button1.Width = 132
+Button1.Height = 26
+Button1.Text = T_Button_RegistrationOK
+Button1.Function = F_Button_RegistrationOK
+
+#UpdateWindow
+With UpdateWindow.
+Width = 320
+Height = 170
+Color = grey
+Font = Arial
+FontSize = 10
+Title = T_UpdateWindow_WindowTitle
+
+Text1.X = 25
+Text1.Y = 19
+Text1.Width = 280
+Text1.Height = 110
+Text1.Text = T_Update_StartQuestion
+Text1.Function = T_Update_StartQuestion
+
+Text2.X = 24
+Text2.Y = 83
+Text2.Width = 100
+Text2.Height = 26
+Text2.Text = T_Option_Update
+Text2.Function = F_Option_Update
+
+Combo1.X = 125
+Combo1.Y = 79
+Combo1.Width = 170
+Combo1.Height = 24
+Combo1.Function = F_UpdateSelection
+Combo1.Val1 = T_Update1
+Combo1.Val2 = T_Update2
+Combo1.Val3 = T_Update3
+Combo1.Color = 16777215
+
+Button2.X = 25
+Button2.Y = 124
+Button2.Width = 110
+Button2.Height = 26
+Button2.Text = T_Button_Cancel
+Button2.Function = F_Button_Cancel
+
+Button3.X = 184
+Button3.Y = 124
+Button3.Width = 110
+Button3.Height = 26
+Button3.Text = T_Button_Ok
+Button3.Function = F_Button_Ok
+
+
+#Info Select Window
+With SelectWindow.
+Width = 620
+Height = 460
+Color = newgrey
+Font = Arial
+FontSize = 10
+Title = T_MainWindow_WindowTitle
+
+Text1.X = 24
+Text1.Y = 302
+Text1.Width = 300
+Text1.Height = 20
+Text1.Text = T_Komponenten
+
+CheckBox1.X = 24
+CheckBox1.Y = 326
+CheckBox1.Width = 240
+CheckBox1.Height = 24
+CheckBox1.Text = T_Product1
+CheckBox1.Function = F_Produkt1
+
+CheckBox2.X = 24
+CheckBox2.Y = 354
+CheckBox2.Width = 240
+CheckBox2.Height = 24
+CheckBox2.Text = T_Product2
+CheckBox2.Function = F_Produkt2
+
+Picture1.FileName = background
+Picture1.X = 10
+Picture1.Y = 16
+
+Picture2.X = 20
+Picture2.Y = 241
+Picture2.Function = F_Start_Handbuch
+Picture2.FileName = button_1a
+Picture2.Active = button_1c
+Picture2.RollOver = button_1b
+
+Picture3.FileName = button_3a
+Picture3.X = 220
+Picture3.Y = 241
+Picture3.Function = F_Start_Products
+Picture3.Active = button_3c
+Picture3.RollOver = button_3b
+
+Picture4.FileName = button_2a
+Picture4.X = 420
+Picture4.Y = 241
+Picture4.Function = F_Start_Internet
+Picture4.Active = button_2c
+Picture4.RollOver = button_2b
+
+
+Text4.X = 60
+Text4.Y = 250	
+Text4.Width = 160
+Text4.Height = 20
+Text4.Text = T_Handbuch
+Text4.Function = F_Start_Handbuch2
+
+Text6.X = 460
+Text6.Y = 250
+Text6.Width = 147
+Text6.Height = 20
+Text6.Text = T_Internet
+Text6.Function = F_Start_Internet2
+
+Button1.X = 462
+Button1.Y = 396
+Button1.Width = 140
+Button1.Height = 26
+Button1.Text = T_Start_Installation
+Button1.Function = F_Start_Installation
+
+#Button2.X = 360
+#Button2.Y = 318
+#Button2.Width = 30
+#Button2.Height = 22
+#Button2.Text = T_Change_Path
+#Button2.Function = F_Change_Path
+
+#Text2.X = 396
+#Text2.Y = 320
+#Text2.Width = 210
+#Text2.Height = 20
+#Text2.Function = F_Path_Display
+#Text2.Text = T_Path_Display
+
+#Text3.X = 360
+#Text3.Y = 300
+#Text3.Width = 120
+#Text3.Height = 18
+#Text3.Function = F_Install_Path
+#Text3.Text = T_Install_Path 
+
+Frame1.X = 8
+Frame1.Y = 6
+Frame1.Width = 604
+Frame1.Height = 222
+
+Frame2.X = 8
+Frame2.Y = 228
+Frame2.Width = 604
+Frame2.Height = 52
+
+Frame3.X = 8
+Frame3.Y = 280
+Frame3.Width = 604
+Frame3.Height = 152
+
+
+with.
+
+T_Country0 = ...
+T_Country1 = Andorra
+T_Country2 = Argentina
+T_Country3 = Australia
+T_Country4 = Bahrain
+T_Country5 = Belarus
+T_Country6 = België
+T_Country7 = Bosna i Hercegovina
+T_Country8 = Brasil
+T_Country9 = Bulgarija
+T_Country10 = Canada
+T_Country11 = Ceská republika
+T_Country12 = Chile
+T_Country13 = Costa Rica
+T_Country14 = Danmark
+T_Country15 = Deutschland
+T_Country16 = Ecuador
+T_Country17 = Eesti
+T_Country18 = Egypt
+T_Country19 = El Salvador
+T_Country20 = Elláda
+T_Country21 = España
+T_Country22 = France
+T_Country23 = Guatemala
+T_Country24 = Honduras
+T_Country25 = Hrvatska
+T_Country26 = Hungary
+T_Country27 = India
+T_Country28 = Ireland
+T_Country29 = Island
+T_Country30 = Österreich
+T_Country31 = Italia
+T_Country32 = Jordan
+T_Country33 = Kuwait
+T_Country34 = Latvija
+T_Country35 = Lebanon
+T_Country36 = Liechtenstein
+T_Country37 = Lietuva
+T_Country38 = Luxembourg
+T_Country39 = Magyarország
+T_Country40 = Makedonija
+T_Country41 = Malaysia
+T_Country42 = Malta
+T_Country43 = Mexico
+T_Country44 = Moldova
+T_Country45 = Nederland
+T_Country46 = New Zealand
+T_Country47 = Nicaragua
+T_Country48 = Norge
+T_Country49 = Oman
+T_Country50 = Panamá
+T_Country51 = Peru
+T_Country52 = Philippines
+T_Country53 = Polska
+T_Country54 = Portugal
+T_Country55 = Qatar
+T_Country56 = România
+T_Country57 = Russia
+T_Country58 = San Marino
+T_Country59 = Saudi Arabia
+T_Country60 = Schweiz
+T_Country61 = Shqipëria
+T_Country62 = Singapore
+T_Country63 = Slovenija
+T_Country64 = Slovensko
+T_Country65 = Srbija
+T_Country66 = Suomi
+T_Country67 = Sverige
+T_Country68 = Syria
+T_Country69 = Türkiye
+T_Country70 = Ukraïna
+T_Country71 = United Arab Emirates
+T_Country72 = United Kingdom
+T_Country73 = United States
+T_Country74 = Venezuela
+T_Country75 = Yemen
+T_Country76 = China
+T_Country77 = Hong Kong
+T_Country78 = Japan
+T_Country79 = Korea
+T_Country80 = Taiwan
+T_Country81 = Thailand
